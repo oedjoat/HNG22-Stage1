@@ -15,7 +15,10 @@ app.use((req, res, next) => {
 
 app.use((req, res, next) => {
     res.status(200).json({
-        message: 'It Works!'
+        "slackUsername": "oedjoat",
+        "backend": true,
+        "age": 34,
+        "bio": "My name is dolapo, loving HNG already but no lies this thing don choke from the 'benigning' oo"
     });
 });
 
